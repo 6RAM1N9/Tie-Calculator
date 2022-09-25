@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Калькулятор чаевых</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="adaptive.css">
+    </head>
+    <body>
+        <div id="main-block">
+            <h1 id="name-block">Калькулятор чаевых</h1>
+            <div id="money">
+                <h3>На какую сумму вышел Ваш заказ?</h3>
+                <img src="money.png">
+                <input type="number" id="input_money">
+            </div>
+            <div id="people">
+                <h3>Сколько человек будет расплачиваться?</h3>
+                <img src="people.png">
+                <input type="number" id="input_people">
+            </div>
+            <h3 style="margin-left: 4%;">Как вы оцените сервис?</h3>
+            <select id="input_service">
+                <option value="null" disabled>Оцените сервис</option>  
+                <option value="2">1/5 - чаевые 2%</option>
+                <option value="4">2/5 - чаевые 4%</option>
+                <option value="6">3/5 - чаевые 6%</option>
+                <option value="10">4/5 - чаевые 10%</option>
+                <option value="20">5/5 - чаевые 20%</option>
+            </select>
+            <div id="button" onclick="processing()">Произвести расчёт</div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>

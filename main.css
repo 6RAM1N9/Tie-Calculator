@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #62B2FF;
+}
+
+#main-block {
+    width: 50%;
+    height: 85vh;
+    margin-left: 25%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#name-block {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+img {
+    width: 8%;
+    height: 8vh;
+    float: left;
+}
+#money, #people, #service {
+    width: 92%;
+    margin-left: 4%;
+}
+
+#input_money, #input_people {
+    height: 8vh;
+    width: 90%;
+    font-size: 25px;
+}
+#input_service {
+    height: 8vh;
+    width: 100%;
+    font-size: 25px;
+}
+
+#button {
+    color: white;
+    background-color: steelblue;
+    font-size: 30px;
+    width: 30%;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 35%;
+    border-radius: 5px;
+}
